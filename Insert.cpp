@@ -19,15 +19,15 @@ int main()
     {
         if (i==y)
         {
-            cout<<"num["<<i<<"]="<<x<<endl;
+            cout<<x<< " ";
         }
         if (i<y)
         {
-            cout<<"num["<<i<<"]="<<num[i]<<endl;
+            cout<<num[i]<< " ";
         } 
         if (i>=y && i<len)
         {
-            cout<<"num["<<i+1<<"]="<<num[i]<<endl;
+            cout<<num[i]<< " ";
         }
     }
     return 0;
